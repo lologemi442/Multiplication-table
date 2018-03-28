@@ -1,0 +1,11 @@
+#include <iostream.h>
+#include <conio.h>
+void main ()
+{
+ int i,b;
+ cout << "Enter number: ";
+ cin >> b;
+ for (i=0; i<=10; i++)
+ cout << "\n" << b * i;
+getch ();
+}
